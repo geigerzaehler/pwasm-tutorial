@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/fckt/pwasm-tutorial#readme",
   "dependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3",
     "web3": "^1.0.0-beta.33"
   }
 }

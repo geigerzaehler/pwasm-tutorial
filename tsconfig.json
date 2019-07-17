@@ -1,0 +1,30 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": [ "es2018", "dom" ],
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./build",
+    "strict": true,
+    "allowUnreachableCode": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["src/*"]
+    },
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ],
+    "esModuleInterop": true
+  }
+}
